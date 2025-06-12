@@ -56,7 +56,7 @@ nav button {
 
 .center {
   padding: 30px 40px;
-  height: 80%;
+  height: 66%;
   width: 100%;
   display: flex;
 }
@@ -67,7 +67,7 @@ nav button {
 }
 
 .center-part1 h1 {
-  font-size: 64px;
+  font-size: 40px;
   line-height: 1.2;
 }
 
@@ -97,5 +97,115 @@ nav button {
   position: absolute;
   right: 0;
   top: 125px;
-  height: 80%;
+  height: 64%;
+}
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.section1bottom img {
+  height: 45px;
+}
+
+.section2 .services {
+  padding: 40px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.services h3 {
+  background-color: #9ae975;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 40px;
+}
+
+.services p {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  height: 82%;
+  width: 100%;
+  padding: 40px 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.elem {
+  flex-shrink: 0;
+  height: 225px;
+  width: 42.5%;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 15px 0 black;
+  display: flex;
+}
+
+.elem-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elem-part2 img {
+  height: 40%;
+}
+
+.elem-part1 h2 {
+  font-size: 31px;
+  width: 90%;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #9ae975;
+}
+
+.elem-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 500;
+  gap: 12px;
+  font-weight: 900;
+}
+
+.elem-part1 h4 i{
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.black{
+  background-color: black;
+  color: white;
+}
+
+.black i{
+  background-color: white !important;
+  color: black !important;
 }
