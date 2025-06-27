@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 section {
   height: 100%;
   width: 100%;
@@ -129,13 +133,14 @@ nav button {
 }
 
 .services p {
-  width: 40%;
+  width: 55%;
   font-size: 20px;
   font-weight: 500;
 }
 
 .container {
-  height: 82%;
+  height: 86vh;
+  gap: 50px;
   width: 100%;
   padding: 40px 120px;
   display: flex;
@@ -201,7 +206,7 @@ nav button {
 }
 
 .black{
-  background-color: black;
+  background-color: rgba(25, 22, 22, 0.95);
   color: white;
 }
 
